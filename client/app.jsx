@@ -1,8 +1,16 @@
 import React from 'react';
-import Home from './pages/home';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-export default class App extends React.Component {
-  render() {
-    return <Home />;
-  }
+export default function App() {
+  return (
+    <div>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/' exact />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
