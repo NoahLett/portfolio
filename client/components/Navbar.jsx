@@ -28,7 +28,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             NL
           </Link>
           <div className="menu-icon">
@@ -43,6 +43,11 @@ export default function Navbar() {
             <li className='nav-item'>
               <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
                 Projects
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                About
               </Link>
             </li>
             <li className='nav-item'>
