@@ -1,10 +1,10 @@
 import React from 'react';
-import HelloWorld from '../components/hello-world';
+import Hero from '../components/Hero';
 
-export default function Home(props) {
+export default function Home() {
   return (
     <div>
-      <HelloWorld />
+      <Hero />
     </div>
   );
 }

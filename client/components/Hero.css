@@ -1,0 +1,57 @@
+.hero-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.hero-video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.welcome-header {
+  font-size: 7rem;
+  color: white;
+  margin: 1rem;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.hero-btns {
+  margin-top: 3rem;
+}
+
+.hero-btns .btn {
+  margin: 0.75rem;
+}
+
+@media screen and (max-width: 960px) {
+  .welcome-header {
+    font-size: 5rem;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .welcome-header {
+    font-size: 4rem;
+    margin: 1rem;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
