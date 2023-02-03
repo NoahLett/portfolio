@@ -1,0 +1,23 @@
+.hero-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.hero-video {
+  object-fit: contain;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.welcome-header {
+  font-size: 3rem;
+  color: white;
+  margin-top: -100px;
+}
