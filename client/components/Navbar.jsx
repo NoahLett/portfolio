@@ -29,7 +29,7 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            NL
+            Noah Lett
           </Link>
           <div className="menu-icon">
             <i onClick={handleClick} className={click ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'} />
