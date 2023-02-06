@@ -2,16 +2,17 @@
   height: 100vh;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   object-fit: contain;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero-video {
   object-fit: cover;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 80%;
   position: absolute;
   z-index: -1;
 }
@@ -19,14 +20,18 @@
 .welcome-header {
   font-size: 7rem;
   color: white;
-  margin: 1rem;
-  text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
 }
 
+.description-text {
+  font-size: 2.5rem;
+  color: aqua;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
 .hero-btns {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .hero-btns .btn {
@@ -44,6 +49,10 @@
   .welcome-header {
     font-size: 4rem;
     margin: 1rem;
+  }
+
+  .description-text {
+    font-size: 1.5rem;
   }
 
   .btn-mobile {
