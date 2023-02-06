@@ -1,5 +1,5 @@
 .hero-container {
-  height: 100vh;
+  height: 53rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@
 .hero-video {
   object-fit: cover;
   width: 90%;
-  height: 80%;
+  height: 85%;
   position: absolute;
   z-index: -1;
 }
@@ -26,7 +26,7 @@
 
 .description-text {
   font-size: 2.5rem;
-  color: aqua;
+  color: rgb(27, 119, 119);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
