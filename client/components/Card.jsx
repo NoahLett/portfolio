@@ -11,9 +11,9 @@ export default function Card(props) {
         </div>
         <div className="deck-item-info">
           <h5 className="deck-item-name">{props.name}</h5>
-          <p className="deck-item-name">{props.text}</p>
-          <p className='deck-item-description'>Technologies Used:</p>
-          <p className='deck-item-list'>{props.techList}</p>
+          <p className="deck-item-text">{props.text}</p>
+          <p className='deck-item-tech'>Technologies Used:</p>
+          <p className='deck-item-text'>{props.techList}</p>
         </div>
       </Link>
     </li>
