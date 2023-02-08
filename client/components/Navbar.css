@@ -55,6 +55,7 @@
   margin-right: 2rem;
   height: 100%;
   font-size: 1.25rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .nav-links:hover {
@@ -75,6 +76,7 @@
 
 .nav-links-mobile {
   display: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .menu-icon {
@@ -115,6 +117,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   }
 
   .nav-links:hover {
