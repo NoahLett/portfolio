@@ -1,3 +1,3 @@
 body {
-  background: radial-gradient(circle at 10% 20%, rgb(154, 156, 158) 0%, rgb(100, 99, 99) 90%);
+  background: linear-gradient(to top, #dfdbf1 0%, #607983 100%);
 }
