@@ -1,7 +1,6 @@
 .about {
   margin-top: 8rem;
   width: 90%;
-  height: 86vh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -19,12 +18,11 @@
   background-color: #fefefe;
   padding: 1.5rem;
   border-radius: 1rem;
+  margin-bottom: 1rem;
 }
 
 .column-two-thirds {
   width: 66%;
-  display: flex;
-  justify-content: center;
 }
 
 .column-one-third {
@@ -51,7 +49,17 @@
 }
 
 .stack-header {
-  text-align: center;
+  margin-left: 2.5rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 2rem;
+}
+
+.icons-box {
+  display: flex;
+  justify-content: center;
+}
+
+.tech-icon {
+  margin-top: 2rem;
+  width: 10rem;
 }
