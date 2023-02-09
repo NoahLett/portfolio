@@ -1,13 +1,8 @@
 import React from 'react';
-
-const styles = {
-  aboutHeader: {
-    marginTop: '10rem'
-  }
-};
+import AboutMe from '../components/AboutMe';
 
 export default function About() {
   return (
-    <h1 style={styles.aboutHeader}>Who I Am</h1>
+    <AboutMe />
   );
 }
