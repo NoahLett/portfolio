@@ -5,7 +5,7 @@ import './Deck.css';
 export default function Deck() {
   return (
     <div className='deck'>
-      <h1 className="deck-title">Projects</h1>
+      <h1 className="deck-title">My Work</h1>
       <div className="deck-container">
         <ul className="deck-items">
           <Card
@@ -20,12 +20,6 @@ export default function Deck() {
               text='A dynamic JavaScript, HTML, and CSS app for homebrewers looking to try new recipes and post their batches.'
               path='https://noahlett.github.io/beer-base/'
               techList='JavaScript ES5, CSS3, HTML, jQuery' />
-          <Card
-            src='images/beerbase.png'
-            name='The Beer Base'
-            text='A dynamic JavaScript, HTML, and CSS app for homebrewers looking to try new recipes and post their batches.'
-            path='https://noahlett.github.io/beer-base/'
-            techList='JavaScript ES5, CSS3, HTML, jQuery' />
         </ul>
       </div>
     </div>

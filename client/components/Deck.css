@@ -7,9 +7,10 @@
 .deck-title {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   color: white;
   font-weight: bold;
+  margin-top: 1rem;
 }
 
 .deck-container {
@@ -23,7 +24,7 @@
 }
 
 .deck-items {
-  margin-bottom: 24px;
+  margin-bottom: 1rem;
   padding: 0;
 }
 
@@ -33,6 +34,7 @@
   margin: 0 1rem;
   border-radius: 10px;
   background-color: white;
+  max-width: 35rem;
 }
 
 .deck-item-link {
@@ -82,13 +84,15 @@
 
 .deck-item-name {
   color: #252e48;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
 }
 
 .deck-item-tech {
   color: #252e48;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
 }
@@ -97,6 +101,7 @@
   color: #252e48;
   font-size: 1.15rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 0.75rem;
 }
 
 @media only screen and (min-width: 1200px) {
