@@ -1,4 +1,5 @@
 import React from 'react';
+import ConnectForm from '../components/ConnectForm';
 
 const styles = {
   connectHeader: {
@@ -8,6 +9,9 @@ const styles = {
 
 export default function Connect() {
   return (
-    <h1 style={styles.connectHeader}>{'Let\'s Get Connected'}</h1>
+    <div>
+      <h1 style={styles.connectHeader}>{'Let\'s Get Connected'}</h1>
+      <ConnectForm />
+    </div>
   );
 }
