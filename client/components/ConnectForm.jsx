@@ -5,7 +5,9 @@ export default function ConnectForm() {
     <div>
       <form>
         <div>
-          <label htmlFor="firstName">First Name</label>
+          <div>
+            <label htmlFor="firstName" className='connect-label'>First Name</label>
+          </div>
           <input
             required
             autoFocus
@@ -13,25 +15,32 @@ export default function ConnectForm() {
             name='firstname' />
         </div>
         <div>
-          <label htmlFor="lastName">Last Name</label>
+          <div>
+            <label htmlFor="lastName" className='connect-label'>Last Name</label>
+          </div>
           <input
             required
             type="text"
             name='lastName' />
         </div>
         <div>
-          <label htmlFor="email">Email</label>
+          <div>
+            <label htmlFor="email" className='connect-label'>Email</label>
+          </div>
           <input
             required
             type="email"
             name='email' />
         </div>
         <div>
-          <label htmlFor="message">Message</label>
-          <input
+          <div>
+            <label htmlFor="message" className='connect-label'>Message</label>
+          </div>
+          <textarea
             required
-            type="textarea"
-            name='message' />
+            name="message"
+            cols="30"
+            rows="10" />
         </div>
         <div>
           <input type="submit" value='Send!' />
