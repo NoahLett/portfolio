@@ -5,7 +5,7 @@ import './Deck.css';
 export default function Deck() {
   return (
     <div className='deck'>
-      <h1 className="deck-title">My Work</h1>
+      <h1 className="deck-title">Featured Work</h1>
       <div className="deck-container">
         <ul className="deck-items">
           <Card
