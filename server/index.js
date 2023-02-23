@@ -12,15 +12,15 @@ app.use(staticMiddleware);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-sgMail.setApiKey(process.env.REACT_APP_SENDGRID_API_KEY);
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 app.post('/send-email', (req, res) => {
-  const { email, message } = req.body;
+  const { topic, message } = req.body;
 
   const msg = {
     to: 'noahblett96@gmail.com',
-    from: email,
-    subject: 'New message from your website',
+    from: 'nblportfolio@gmail.com',
+    subject: topic,
     text: message
   };
 
