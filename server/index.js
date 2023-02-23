@@ -14,24 +14,22 @@ app.use(bodyParser.json());
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-app.post('/send-email', (req, res) => {
+app.post('/send-email', (req, res, next) => {
   const { topic, message } = req.body;
 
   const msg = {
     to: 'noahblett96@gmail.com',
     from: 'nblportfolio@gmail.com',
     subject: topic,
-    text: message
+    text: message,
+    html: `<h1/>${message}</h1>`
   };
 
   sgMail.send(msg)
-    .then(() => {
-      res.status(200).send('Email sent successfully');
+    .then(res => {
+      res.status(200).json('Email Sent');
     })
-    .catch(error => {
-      console.error(error);
-      res.status(500).send('Error sending email');
-    });
+    .catch(err => next(err));
 });
 
 app.use(errorMiddleware);
