@@ -4,33 +4,35 @@ const staticMiddleware = require('./static-middleware');
 const errorMiddleware = require('./error-middleware');
 const bodyParser = require('body-parser');
 const sgMail = require('@sendgrid/mail');
+const cors = require('cors');
 
 const app = express();
 
 app.use(staticMiddleware);
-
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-sgMail.setApiKey(process.env.REACT_APP_SENDGRID_API_KEY);
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-app.post('/send-email', (req, res) => {
-  const { email, message } = req.body;
+app.post('/send-email', (req, res, next) => {
+  const { topic, message } = req.body;
 
   const msg = {
     to: 'noahblett96@gmail.com',
-    from: email,
-    subject: 'New message from your website',
-    text: message
+    from: 'nblportfolio@gmail.com',
+    subject: topic,
+    text: message,
+    html: `<h1/>${message}</h1>`
   };
 
   sgMail.send(msg)
-    .then(() => {
-      res.status(200).send('Email sent successfully');
+    .then(result => {
+      res.status(200).json('Email Sent');
     })
-    .catch(error => {
-      console.error(error);
-      res.status(500).send('Error sending email');
+    .catch(err => {
+      console.error(err);
+      next(err);
     });
 });
 

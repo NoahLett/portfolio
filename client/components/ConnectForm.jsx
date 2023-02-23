@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const EmailForm = () => {
-  const [email, setEmail] = useState('');
+  const [topic, setTopic] = useState('');
   const [message, setMessage] = useState('');
 
   const handleSubmit = event => {
@@ -12,25 +12,27 @@ const EmailForm = () => {
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({ email, message })
+      body: JSON.stringify({ topic, message })
     })
       .then(response => {
-        // eslint-disable-next-line no-console
-        console.log(response);
+        if (response.status === 200) {
+          // eslint-disable-next-line no-console
+          console.log('Email sent successfully');
+        } else {
+          throw new Error('Failed to send email');
+        }
       })
-      .catch(error => {
-        console.error(error);
-      });
+      .catch(err => console.error(err));
 
-    setEmail('');
+    setTopic('');
     setMessage('');
   };
 
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        Email:
-        <input type="email" value={email} onChange={e => setEmail(e.target.value)} required />
+        Subject:
+        <input type="text" value={topic} onChange={e => setTopic(e.target.value)} required />
       </label>
       <label>
         Message:
