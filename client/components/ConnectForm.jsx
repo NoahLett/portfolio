@@ -8,13 +8,18 @@ export default function Contact() {
   const sendEmail = e => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm(
+      'service_2zisa0e',
+      'template_we2d049',
+      form.current,
+      'jzDZ8WBLU-3pEZ75B'
+    )
       .then(result => {
         // eslint-disable-next-line no-console
-        console.log(result.text);
+        console.log(result.text, 'message sent');
       }, error => {
         // eslint-disable-next-line no-console
-        console.log(error.text);
+        console.log(error.text, 'message failed to send');
       });
   };
 
