@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-export default function Contact() {
+export default function ContactForm() {
 
   const form = useRef();
 
@@ -16,7 +16,8 @@ export default function Contact() {
     )
       .then(result => {
         // eslint-disable-next-line no-console
-        console.log(result.text, 'message sent');
+        console.log('message sent');
+        form.current.reset();
       }, error => {
         // eslint-disable-next-line no-console
         console.log(error.text, 'message failed to send');
