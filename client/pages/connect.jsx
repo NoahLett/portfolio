@@ -1,5 +1,5 @@
 import React from 'react';
-import EmailForm from '../components/ConnectForm';
+import ContactForm from '../components/ConnectForm';
 
 const styles = {
   connectHeader: {
@@ -11,7 +11,7 @@ export default function Connect() {
   return (
     <div>
       <h1 style={styles.connectHeader}>{'Let\'s Get Connected'}</h1>
-      <EmailForm />
+      <ContactForm />
     </div>
   );
 }

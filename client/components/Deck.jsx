@@ -11,9 +11,9 @@ export default function Deck() {
           <Card
               src='images/bookworm.png'
               name='BookWorm'
-              text='A full-stack React app for college student looking to save money on overpriced college textbooks.'
+              text='A full-stack React app for college students looking to save money on overpriced textbooks.'
               path='https://book-worm.noahlett.com'
-              techList='React, node.js, Express, AWS, CSS3, HTML Bootstrap, JSON Web Tokens, Webpack, Babel' />
+              techList='React, node.js, Express, AWS, CSS3, HTML, Bootstrap, JSON Web Tokens, Webpack, Babel' />
           <Card
               src='images/beerbase.png'
               name='The Beer Base'
