@@ -1,22 +1,21 @@
-import React, { useState } from 'react';
+import React, { useRef } from 'react';
 
-const EmailForm = () => {
-  const [topic, setTopic] = useState('');
-  const [message, setMessage] = useState('');
+export default function Contact() {
+  const form = useRef();
+
+  const sendEmail = e => {
+    e.preventDefault();
+  };
 
   return (
-    <form>
-      <label>
-        Email:
-        <input type="text" value={topic} onChange={e => setTopic(e.target.value)} required />
-      </label>
-      <label>
-        Message:
-        <textarea value={message} onChange={e => setMessage(e.target.value)} required />
-      </label>
-      <button type="submit">Submit</button>
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
     </form>
   );
-};
-
-export default EmailForm;
+}
