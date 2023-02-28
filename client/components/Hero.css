@@ -46,6 +46,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .hero-container {
+    margin-top: 3rem;
+  }
+
   .welcome-header {
     font-size: 4rem;
     margin: 1rem;
