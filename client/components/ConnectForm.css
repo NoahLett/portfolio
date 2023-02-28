@@ -77,6 +77,6 @@ textarea {
 
 .form-submit:hover {
   background-color: black;
-  color: orangered;
+  color: #6d838e;
   transition: all 0.2s ease;
 }
