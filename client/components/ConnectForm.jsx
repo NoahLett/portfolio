@@ -28,26 +28,26 @@ export default function ContactForm() {
   return (
     <div className='form-box'>
       <form className='contact-form' ref={form} onSubmit={sendEmail}>
-        <div className='input-box'>
+        <div className='input-container'>
           <label placeholder='John Doe'>
             Name
-            <div>
+            <div className='input-box'>
               <input type="text" name="user_name" />
             </div>
           </label>
         </div>
-        <div className='input-box'>
+        <div className='input-container'>
           <label placeholder='johndoe@gmail.com'>
             Email
-            <div>
+            <div className='input-box'>
               <input type="email" name="user_email" />
             </div>
           </label>
         </div>
-        <div className='input-box'>
+        <div className='input-container'>
           <label placeholder='Write your message here!'>
             Message
-            <div>
+            <div className='input-box'>
               <textarea name="message" />
             </div>
           </label>

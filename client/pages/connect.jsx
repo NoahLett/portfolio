@@ -3,7 +3,8 @@ import ContactForm from '../components/ConnectForm';
 
 const styles = {
   connectHeader: {
-    marginTop: '10rem',
+    marginTop: '8rem',
+    marginBottom: '3rem',
     textAlign: 'center',
     color: '#fff',
     fontFamily: 'Trebuchet MS',
