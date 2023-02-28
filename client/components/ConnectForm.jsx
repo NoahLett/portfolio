@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './ConnectForm.css';
+import { FaPaperPlane } from 'react-icons/fa';
 
 export default function ContactForm() {
 
@@ -53,7 +54,10 @@ export default function ContactForm() {
           </label>
         </div>
         <div>
-          <input className='form-submit' type="submit" value="Send" />
+          <input className='form-submit' type="submit" value='Send'/>
+          <div className='plane-box'>
+            <FaPaperPlane className='plane'/>
+          </div>
         </div>
       </form>
     </div>

@@ -14,12 +14,15 @@
 
 #linkedin:hover {
   color: #0b64be;
+  transition: all 0.2s ease;
 }
 
 #facebook:hover {
   color: #3a559f;
+  transition: all 0.2s ease;
 }
 
 #github:hover {
   color: #2b414d;
+  transition: all 0.2s ease;
 }
