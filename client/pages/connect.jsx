@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactForm from '../components/ConnectForm';
+import SocialMedia from '../components/SocialMedia';
 
 const styles = {
   connectHeader: {
@@ -18,6 +19,7 @@ export default function Connect() {
     <div>
       <h1 style={styles.connectHeader}>{'Let\'s Get Connected'}</h1>
       <ContactForm />
+      <SocialMedia />
     </div>
   );
 }

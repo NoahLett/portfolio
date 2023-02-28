@@ -1,0 +1,28 @@
+.socialmedia-block {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.socialmedia-icon {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+#linkedin:hover {
+  color: #0b64be;
+  transition: all 0.2s ease;
+}
+
+#facebook:hover {
+  color: #3a559f;
+  transition: all 0.2s ease;
+}
+
+#github:hover {
+  color: #2b414d;
+  transition: all 0.2s ease;
+}
