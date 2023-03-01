@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from './Button';
+import { Link } from 'react-router-dom';
 import './Hero.css';
 
 export default function Hero() {
@@ -11,8 +12,12 @@ export default function Hero() {
         <p className='description-text'>Full-Stack Software Developer</p>
       </div>
       <div className="hero-btns">
-        <Button className="btn" buttonStyle='btn-outline' buttonSize='btn-large'>{'Let\'s Connect'}</Button>
-        <Button className='btn' buttonStyle='btn-primary' buttonSize='btn-large'>Discover More</Button>
+        <Link to='/connect'>
+          <Button className="btn" buttonStyle='btn-outline' buttonSize='btn-large'>{'Let\'s Connect'}</Button>
+        </Link>
+        <Link to='/about'>
+          <Button className='btn' buttonStyle='btn-primary' buttonSize='btn-large'>Discover More</Button>
+        </Link>
       </div>
     </div>
   );
