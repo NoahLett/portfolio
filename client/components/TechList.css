@@ -1,0 +1,18 @@
+.stack-title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 6px 20px rgba(10, 10, 10, 0.37);
+}
