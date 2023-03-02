@@ -5,6 +5,10 @@
   margin-top: 2rem;
 }
 
+.socialmedia-link {
+  color: rgb(45, 46, 48);
+}
+
 .socialmedia-icon {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -14,6 +18,11 @@
 
 #linkedin:hover {
   color: #0b64be;
+  transition: all 0.2s ease;
+}
+
+#instagram:hover {
+  color: #c33a93;
   transition: all 0.2s ease;
 }
 

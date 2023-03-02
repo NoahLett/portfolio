@@ -6,16 +6,16 @@ export default function SocialMedia() {
   return (
     <div className='socialmedia-block'>
       <span className="socialmedia-span">
-        <a href="https://www.linkedin.com/in/noah-lett/">
+        <a className='socialmedia-link' href="https://www.linkedin.com/in/noah-lett/">
           <FaLinkedin className='socialmedia-icon' id='linkedin'/>
         </a>
-        <a href="https://github.com/NoahLett">
+        <a className='socialmedia-link' href="https://github.com/NoahLett">
           <FaGithub className='socialmedia-icon' id='github'/>
         </a>
-        <a href="https://www.instagram.com/noah_bradley96/">
+        <a className='socialmedia-link' href="https://www.instagram.com/noah_bradley96/">
           <FaInstagram className='socialmedia-icon' id='instagram'/>
         </a>
-        <a href="https://www.facebook.com/noah.lett">
+        <a className='socialmedia-link' href="https://www.facebook.com/noah.lett">
           <FaFacebook className='socialmedia-icon' id='facebook'/>
         </a>
       </span>
