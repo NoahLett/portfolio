@@ -33,7 +33,7 @@ export default function ContactForm() {
           <label placeholder='John Doe'>
             Name
             <div className='input-box'>
-              <input type="text" name="user_name" />
+              <input type="text" name="user_name" required />
             </div>
           </label>
         </div>
@@ -41,7 +41,7 @@ export default function ContactForm() {
           <label placeholder='johndoe@gmail.com'>
             Email
             <div className='input-box'>
-              <input type="email" name="user_email" />
+              <input type="email" name="user_email" required />
             </div>
           </label>
         </div>
@@ -49,7 +49,7 @@ export default function ContactForm() {
           <label placeholder='Write your message here!'>
             Message
             <div className='input-box'>
-              <textarea name="message" />
+              <textarea name="message" required/>
             </div>
           </label>
         </div>
