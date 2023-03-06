@@ -12,10 +12,10 @@ export default function Hero() {
         <p className='description-text'>Full-Stack Software Developer</p>
       </div>
       <div className="hero-btns">
-        <Link to='/connect'>
+        <Link className='button-link' to='/connect'>
           <Button className="btn" buttonStyle='btn-outline' buttonSize='btn-large'>{'Let\'s Connect'}</Button>
         </Link>
-        <Link to='/about'>
+        <Link className='button-link' to='/about'>
           <Button className='btn' buttonStyle='btn-primary' buttonSize='btn-large'>Discover More</Button>
         </Link>
       </div>

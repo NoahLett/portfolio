@@ -35,10 +35,10 @@
 }
 
 .about-text {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bolder;
-  font-size: 1.5rem;
-  padding: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 1.25rem;
+  padding: 1rem;
+  text-indent: 2rem;
 }
 
 .headshot {
@@ -78,7 +78,7 @@
 
 @media screen and (max-width: 768px) {
   .about-box {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
@@ -94,6 +94,6 @@
 
   .about-text {
     font-size: 1.15rem;
-    text-align: center;
+    text-align: left;
   }
 }
