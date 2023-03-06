@@ -78,7 +78,7 @@
 
 @media screen and (max-width: 768px) {
   .about-box {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
@@ -94,6 +94,6 @@
 
   .about-text {
     font-size: 1.15rem;
-    text-align: center;
+    text-align: left;
   }
 }
