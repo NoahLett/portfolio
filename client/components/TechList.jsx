@@ -18,7 +18,7 @@ const TechList = () => {
         description='A popular JavaScript library used for building user interfaces and front-end web applications'
       />
         <TechListItem
-        image='images/Node.jpg'
+        image='images/Node.png'
         title='Node.js'
         description='A server-side JavaScript runtime environment that allows developers to build scalable, high-performance web applications'
       />
@@ -53,7 +53,7 @@ const TechList = () => {
         description='A popular open-source framework that provides developers with pre-built HTML, CSS, and JavaScript components to create responsive and mobile-first websites and web applications'
       />
         <TechListItem
-        image='images/AWS.jpg'
+        image='images/AWS.png'
         title='Amazon Web Services'
         description='A cloud computing platform that provides a variety of services such as computing, storage, and databases'
       />
@@ -68,12 +68,12 @@ const TechList = () => {
           description='A package manager for Node.js that allows developers to easily install and manage dependencies for their project'
         />
         <TechListItem
-          image='images/Figma.jpg'
+          image='images/Figma.png'
           title='Figma'
           description='A web-based design tool used by designers to create and collaborate on user interfaces, prototypes, and graphics'
         />
         <TechListItem
-          image='images/slack.jpg'
+          image='images/slack.png'
           title='Slack'
           description='A popular communication platform for teams that provides features such as instant messaging, file sharing, and video conferencing'
         />
