@@ -11,10 +11,10 @@ export default function ContactForm() {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_2zisa0e',
-      'template_we2d049',
+      process.env.SERVICE_ID,
+      process.env.TEMPLATE_ID,
       form.current,
-      'jzDZ8WBLU-3pEZ75B'
+      process.env.PUBLIC_API_KEY
     )
       .then(result => {
         // eslint-disable-next-line no-console
