@@ -7,7 +7,16 @@ export default function AboutMe() {
       <h1 className='about-header'>Who I Am</h1>
       <div className='about-box'>
         <div className='column-two-thirds'>
-          <p className='about-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet augue congue, accumsan turpis sit amet, laoreet lacus. Donec convallis nec orci in gravida. Suspendisse blandit aliquam mi, at bibendum ex eleifend sed. Curabitur quis interdum velit. Vivamus ornare est vel risus placerat, ut vulputate orci auctor. Mauris euismod lacinia vestibulum. Etiam maximus dui vitae purus ornare fringilla vel vel sapien. Pellentesque volutpat condimentum egestas. Integer finibus ante et sem porta euismod. Nulla pulvinar, nisi quis vestibulum elementum, leo libero venenatis nulla, sed congue sem felis eget urna. In congue dictum mi vitae posuere. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc bibendum commodo mi eget efficitur. Donec luctus massa quis velit fringilla, non pretium sapien pellentesque. Nulla sodales vitae metus in dignissim.</p>
+          <div>
+            <p className='about-text'>
+              My name is Noah Lett and I’m a software developer experienced in JavaScript, React, Node.js, Express, HTML5, CSS3, and several other tools and libraries. Before I entered the web development field, I worked in the real estate, escrow, and title industry, which allowed me to gain an excellent perspective in the backend of real estate transactions and loan closings. Working within a team was a major theme in the many positions I held at Atlas Title Company, and the interactions between my teammates, clients, borrowers, and third parties not only allowed me to hone both my written and verbal communication, but provided an excellent environment for the enhancement of my time management and prioritization skills.
+            </p>
+          </div>
+          <div>
+            <p className='about-text'>
+              I began to take an interest in software development and coding in general around the end of my time at Point Loma Nazarene University, where I was in the process of earning my Bachelors degree in Business Administration. Before long, I was spending copious amounts of my free time self-teaching the fundamentals. I quickly realized a career in this field would be so much more personally gratifying to me than the work I was doing in escrow and title. I continued to educate myself as I conducted further research into accelerated programs, all while the Federal Reserve continued to raise interest rates, which obviously had adverse effects on the lending industry. It was at this point that I decided to step out of my position at Atlas, enroll in a full-immersion software development program, and pursue my dream full-time. The education I obtained at LearningFuze rapidly deepened my development capabilities, and more importantly, taught me how to properly address challenges and learn new concepts.
+            </p>
+          </div>
         </div>
         <div className='column-one-third'>
           <img className='headshot' src="images/headshot.jpg" alt="Noah Lett" />
