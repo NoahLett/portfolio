@@ -19,6 +19,12 @@ export default function Deck() {
               name='The Beer Base'
               text='A dynamic JavaScript, HTML, and CSS app for homebrewers looking to try new recipes and post their batches.'
               path='https://noahlett.github.io/beer-base/'
+              techList='JavaScript ES5, CSS3, HTML, jQuery, External APIs, XML HttpRequests' />
+          <Card
+              src='images/code-journal.png'
+              name='Code Journal'
+              text='A JavaScript, HTML, and CSS CRUD note-taking app for coders who wish to document their learning.'
+              path='https://noahlett.github.io/code-journal/'
               techList='JavaScript ES5, CSS3, HTML, jQuery' />
         </ul>
       </div>
