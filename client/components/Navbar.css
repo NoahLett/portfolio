@@ -38,6 +38,14 @@
   margin-right: 0.3rem;
 }
 
+.rings-hover {
+  font-size: 3rem;
+  margin-top: 0.2rem;
+  margin-right: 0.3rem;
+  color: orangered;
+  transition: all 0.2s ease-out;
+}
+
 .nav-menu {
   display: flex;
   list-style: none;

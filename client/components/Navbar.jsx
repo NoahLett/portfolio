@@ -8,6 +8,7 @@ export default function Navbar() {
 
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const [isHovered, setIsHovered] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -25,12 +26,15 @@ export default function Navbar() {
 
   window.addEventListener('resize', showButton);
 
+  const handleHover = () => setIsHovered(true);
+  const handleMouseOut = () => setIsHovered(false);
+
   return (
     <div>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <GiPerpendicularRings className='rings'/>Noah Lett
+          <Link to="/" className="navbar-logo" onMouseOver={handleHover} onMouseOut={handleMouseOut} onClick={closeMobileMenu}>
+            <GiPerpendicularRings className={isHovered ? 'rings-hover' : 'rings'}/>Noah Lett
           </Link>
           <div className="menu-icon">
             <i onClick={handleClick} className={click ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'} />
