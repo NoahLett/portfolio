@@ -54,11 +54,6 @@
   overflow: hidden;
 }
 
-.fade-img {
-  animation-name: fade-img;
-  animation-duration: 1s;
-}
-
 .deck-item-img {
   position: absolute;
   top: 0;
@@ -102,12 +97,6 @@
   font-size: 1.15rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   margin-bottom: 0.75rem;
-}
-
-@media only screen and (min-width: 1200px) {
-  .content-blog-container {
-    width: 84%;
-  }
 }
 
 @media only screen and (min-width: 1024px) {

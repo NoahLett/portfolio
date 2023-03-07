@@ -63,19 +63,6 @@
   justify-content: left;
 }
 
-.tech-icon {
-  margin-top: 2rem;
-  width: 100%;
-}
-
-.tech-list {
-  columns: 2;
-}
-
-.tech-list-item {
-  list-style: none;
-}
-
 @media screen and (max-width: 768px) {
   .about-box {
     flex-direction: column-reverse;
