@@ -32,6 +32,12 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
+.rings {
+  font-size: 3rem;
+  margin-top: 0.2rem;
+  margin-right: 0.3rem;
+}
+
 .nav-menu {
   display: flex;
   list-style: none;
@@ -127,7 +133,9 @@
   }
 
   .navbar-logo {
-    margin-left: 2rem;
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    align-items: center;
   }
 
   .menu-icon {

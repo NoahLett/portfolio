@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { Button } from './Button';
+import { GiPerpendicularRings } from 'react-icons/gi';
 
 export default function Navbar() {
 
@@ -29,7 +30,7 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            Noah Lett
+            <GiPerpendicularRings className='rings'/>Noah Lett
           </Link>
           <div className="menu-icon">
             <i onClick={handleClick} className={click ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'} />
