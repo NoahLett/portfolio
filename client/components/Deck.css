@@ -16,6 +16,7 @@
 .deck-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 95%;
   background: white;
   border-radius: 0.75rem;
