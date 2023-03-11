@@ -56,7 +56,7 @@ export default function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Link to='/connect'><Button buttonStyle='btn-outline'>Connect</Button></Link>}
+          {button && <Link to='/connect'><Button buttonStyle='btn-outline-alt'>Connect</Button></Link>}
         </div>
       </nav>
     </div>
