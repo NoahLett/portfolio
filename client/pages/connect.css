@@ -1,0 +1,17 @@
+.connect-header {
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .connect-header {
+    font-size: 3rem;
+    margin-top: 6.5rem;
+    margin-bottom: 2rem;
+  }
+}
