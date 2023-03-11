@@ -42,7 +42,7 @@
   font-size: 3rem;
   margin-top: 0.2rem;
   margin-right: 0.3rem;
-  color: orangered;
+  color: rgb(100, 196, 196);
   transition: all 0.2s ease-out;
 }
 
@@ -73,8 +73,8 @@
 }
 
 .nav-links:hover {
-  color: orangered;
-  border-bottom: 2.5px solid orangered;
+  color: rgb(100, 196, 196);
+  border-bottom: 2.5px solid rgb(100, 196, 196);
   transition: all 0.2s ease-out;
 }
 
@@ -84,7 +84,7 @@
 
 .fa-xmark:hover,
 .fa-bars:hover {
-  color: orangered;
+  color: rgb(100, 196, 196);
   transition: all 0.2s ease;
 }
 

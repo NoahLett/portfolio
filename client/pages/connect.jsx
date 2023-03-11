@@ -17,7 +17,7 @@ const styles = {
 export default function Connect() {
   return (
     <div>
-      <h1 style={styles.connectHeader}>{'Let\'s Get Connected'}</h1>
+      <h1 style={styles.connectHeader}>{'Let\'s Connect'}</h1>
       <ContactForm />
       <SocialMedia />
     </div>
