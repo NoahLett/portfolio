@@ -13,13 +13,13 @@ export default function Deck() {
             name='CooksCabinet (In Progress)'
             text='A full-stack React and Redux app for home chefs who want to share and try recipes.'
             path='/'
-            techList='React, Redux, Materialize, EmailJS, node.js, Express, AWS, CSS3, HTML, Webpack, Babel' />
+            techList='React, Redux, Materialize, EmailJS, node.js, Express, PostgreSQL database, SQL, PGWeb, CSS3, HTML, Webpack, Babel' />
           <Card
               src='images/bookworm.png'
               name='BookWorm'
               text='A full-stack React app for college students looking to save money on overpriced textbooks.'
               path='https://book-worm.noahlett.com'
-              techList='React, node.js, Express, AWS, CSS3, HTML, Bootstrap, JSON Web Tokens, Webpack, Babel' />
+              techList='React, node.js, Express, AWS, PostgreSQL database, PGWeb, SQL, CSS3, HTML, Bootstrap, JSON Web Tokens, Webpack, Babel' />
           <Card
               src='images/beerbase.png'
               name='The Beer Base'
