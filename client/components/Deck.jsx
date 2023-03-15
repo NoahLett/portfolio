@@ -9,6 +9,12 @@ export default function Deck() {
       <div className="deck-container">
         <ul className="deck-items">
           <Card
+            src='images/cookscabinet.png'
+            name='CooksCabinet (In Progress)'
+            text='A full-stack React and Redux app for home chefs who want to share and try recipes.'
+            path='/'
+            techList='React, Redux, Materialize, EmailJS, node.js, Express, AWS, CSS3, HTML, Webpack, Babel' />
+          <Card
               src='images/bookworm.png'
               name='BookWorm'
               text='A full-stack React app for college students looking to save money on overpriced textbooks.'
